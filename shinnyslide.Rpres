@@ -1,0 +1,30 @@
+Motor Trend Car Road Tests
+========================================================
+author: Yun Cheng
+date: November 4, 2016
+autosize: true
+
+Dataset Introduction
+========================================================
+The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973 to 1974 models)
+
+View Data
+========================================================
+
+```{r}
+head(mtcars)
+```
+
+Data Summary
+========================================================
+
+```{r}
+summary(mtcars)
+```
+
+Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(mtcars)
+```
